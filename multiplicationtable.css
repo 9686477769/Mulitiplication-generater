@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+}
+h1{
+    width: 100%;
+    background-color: #1f0101;
+    color: lightpink;   
+}
+h1:hover{
+    color: lightskyblue;
+}
+label{
+    font-weight: 700;
+    color: #461c61;
+    
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+    align-items:center;
+    background-image: linear-gradient(to right,hotpink,pink);   
+}
+.search:hover{
+    background-image: linear-gradient(to left,hotpink,pink);   
+}
+#gen{
+    background-color: lightskyblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.show{
+    margin-top: 20px;
+    background-image: linear-gradient(to left,pink,hotpink);  
+}
+.show:hover{
+    background-image:linear-gradient(to right,pink,hotpink);
+}
+.com{
+    margin:10px 10px;
+    padding:10px 10px;
+    background-color:lightskyblue;
+    border: none;
+    border-radius: 10px;
+    box-shadow:2px 2px 2px 3px palevioletred; 
+    /* transition: transform 0.35 ease-in; */
+}
+.com:hover{
+    background:linear-gradient(to right,hotpink,aliceblue) ;
+     /* transform: translatex(50px); */
+}
+
